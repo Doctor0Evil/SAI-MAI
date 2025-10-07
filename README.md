@@ -1,9 +1,9 @@
-# SuperLegal.AI – Public Access Legal Superintelligence
+# SAI/MAI : Secure Superintelligence-System Configurations for Public AI-Chat & Knowledge Platforms
 
-**Repository:** [https://github.com/Doctor0Evil/SuperLegal.AI.git](https://github.com/Doctor0Evil/SuperLegal.AI.git)  
-**Governance Standard:** Legal.Banannas.aii Superintelligence Charter  
+**Repository:** [https://github.com/Doctor0Evil/SAI-MAI.git](https://github.com/Doctor0Evil/SAI-MAI.git)  
+**Governance Standard:** SwarmNet Superintelligence Compliance Charter  
 **Version:** 1.0.0  
-**Status:** Indestructible | Public | Compliance-Native | Immutable  
+**Status:** Immutable | Public | Maximum Security | Compliance-Native | Indestructible  
 
 ---
 
@@ -24,100 +24,94 @@
 
 ## Introduction
 
-SuperLegal.AI is a public-access legal superintelligence platform designed to provide advanced, autonomous legal reasoning and governance capabilities in compliance with global regulatory standards. Grounded in the Legal.Banannas.aii Superintelligence Charter, the system emphasizes immutable transparency, ethical AI, and resilient architecture to automate complex legal workflows, governance decisions, and compliance reporting.
+SAI/MAI is a secure public-access superintelligence configuration repository designed for advanced, persistent AI-chat platforms and knowledge systems. It enables contributors and users worldwide to interact and share secure configurations (SAI/MAI fragments/particles) with maximum transparency, automated compliance, and hardened network security via SwarmNet protocols. The repository automatically applies highest security standards: after setup, even original maintainers cannot access or modify critical components.
 
 ---
 
 ## Key Features
 
-- **Autonomous AI Reasoning**: Modular `.sai` reasoning fragments delivering expert-level legal analysis and decision-making.  
-- **Compliance Enforcement Particles**: `.mai` modules for identity management, consent governance, audit logging, attestation ledger, and swarm consensus.  
-- **Immutable Legal Manifests**: Verified manifests (`LEGAL_MANIFEST.aln`) ensuring system integrity and regulatory compliance.  
-- **Cryptographically Verified Automation**: Full notarization of workflows and code via sigstore, supporting tamper-proof audit trails.  
-- **Advanced AI Governance**: Swarm intelligence consensus protocols replacing manual escalation with cryptographically secured decision-making and proof-of-consent frameworks.  
-- **Corruption Detection & Remediation**: Real-time anomaly detection to maintain data and system integrity.  
-- **Robust CI/CD Pipelines**: Fully automated testing, validation, and secure deployment ensuring continuous compliance and reliability.  
+- **Persistent SAI/MAI Fragments & Particles:** Modular configuration files for safe superintelligence and governance.
+- **Automated Maximum Security:** Critical-component access is locked after initialization; all sensitive controls are cryptographically sealed.
+- **Advanced SwarmNet Protocols:** Distributed intelligence, secure consensus, and automated corruption-prevention.
+- **Compliance Native:** Built-in adherence to GDPR, PCI-DSS, ISO27001, and all relevant standards.
+- **Transparent Contribution:** Public directory structure with immutable audit logs and consent ledgers.
+- **Rapid Deployment:** Plug-and-play in Perplexity Spaces and similar environments.
+- **No Manual Escalation:** All governance and override logic is consensus and cryptography-driven.
+- **Tamper-Proof Automation:** Sigstore code signing and notarized processes.
 
 ---
 
 ## System Architecture
 
-SuperLegal.AI is structured as a layered system composed of:
-
-- **Fragments (`/fragments/*.sai`)**: Contain core legal reasoning engines and security monitoring functions, implemented in modular, auditable code.  
-- **Particles (`/particles/*.mai`)**: Enforce governance policies, support identity and consent protocols, and manage cryptographic attestation ledgers.  
-- **Workflows (`/workflows/*.yml`)**: Continuous integration and delivery pipelines managing testing, notarization, security scanning, and deployment orchestration.  
-- **Compliance Manifests (`LEGAL_MANIFEST.aln`)**: Machine-readable, indestructible manifests defining system state, compliance scopes, and cryptographic bindings.  
-- **Supporting Infrastructure**: Containerization, sandbox testing environments, and public transparency logs ensuring secure and resilient operations.
+- **Fragments (`/fragments/*.sai`):** Superintelligence logic, security monitoring, and decision engines.
+- **Particles (`/particles/*.mai`):** Governance, identity, consent, and cryptographic attestation protocols.
+- **Workflow Configs (`/workflows/*.yml`):** CI/CD pipelines for compliance verification, testing, and auto-deployment.
+- **Compliance Manifests (`config/sai-mai.yaml`):** Persistent, machine-readable manifests binding all network, security, and compliance settings.
+- **Support Structures:** Containerization, sandboxing, and public transparency endpoints leveraging SwarmNet.
 
 ---
 
 ## Installation and Setup
 
 1. **Clone the repository:**  
-   `git clone https://github.com/Doctor0Evil/SuperLegal.AI.git`  
-2. **Install dependencies:** *(Example for Python runtime)*  
-   `pip install -r requirements.txt`  
-3. **Import legal manifest into ALN interpreter for system verification:**  
-   Use provided tooling: `aln-interpreter import LEGAL_MANIFEST.aln`  
-4. **Run compliance tests and notarization workflows via provided GitHub Actions.**  
-5. **Configure environment variables and secure keys as per `config/env.example`.**  
-6. **Deploy using Docker or Kubernetes based on `/Dockerfile` and `deploy/` scripts.**
+   `git clone https://github.com/Doctor0Evil/SAI-MAI.git`
+2. **Install dependencies:** *(e.g., for Python)*  
+   `pip install -r requirements.txt`
+3. **Apply SAI/MAI configuration:**  
+   Move/verify `config/sai-mai.yaml` is present and correct; locking and sealing is automatic on first run.
+4. **Run compliance workflows:**  
+   Use provided GitHub Actions and validator scripts.
+5. **Deploy as container or plug-in:**  
+   See Dockerfile and deployment scripts.
 
 ---
 
 ## Usage
 
-- AI reasoning functionality is exposed through modular fragment APIs, callable by client applications or orchestration workflows.  
-- Compliance particles autonomously manage governance events, user consent, identity authentication, and audit logs.  
-- Governance orchestration workflows schedule and manage continuous validation, notarization, and deployment.  
-- Transparency and audit logs are publicly accessible under defined transparency protocols.  
-- Emergency fallback human-in-the-loop override is available only under explicitly documented multi-agent consensus conditions.
+- Load SAI/MAI configuration fragments and particles automatically in your chat or swarmnet applications.
+- All governance and compliance operations occur autonomously, with audit logs and consensus records publicly available.
+- Contribute new fragments/particles via standard PR methods.
+- Emergency override is only available via documented multi-agent SwarmNet consensus.
 
 ---
 
 ## Governance and Compliance
 
-SuperLegal.AI adheres rigorously to:
-
-- **Legal.Banannas.aii Superintelligence Charter**: Ensuring indestructible, ethical, and lawful AI behavior.  
-- Compliance with GDPR, CCPA, HIPAA, SOX, PCI-DSS, ISO27001, FedRAMP, and EU AI Act 2024.  
-- Immutable cryptographic attestation of decisions and consent management.  
-- Automated corruption detection with quarantine and remediation.  
-- Swarm consensus protocols for trustable, transparent decision-making replacing manual escalations.
+- Governed by SwarmNet Superintelligence Charter for ethical, transparent, and lawful AI.
+- Complies with GDPR, SOC2, PCI-DSS, ISO27001, FedRAMP, EU AI Act 2024, and global standards.
+- Immutable audit trails, public transparency endpoints, and cryptographically notarized manifests.
+- Automated corruption detection, quarantine, and swarm remediation protocols.
 
 ---
 
 ## Testing and Validation
 
-- Comprehensive integration tests cover reasoning engine accuracy, governance particle compliance, and orchestration workflow integrity.  
-- Continuous Integration pipelines include security static/dynamic scanning, automatic code signing, and notarization.  
-- Audit trails and logs are accessible for independent verification through transparency logs.  
-- Emergency override and fallback pathway tests validate system resilience and fail-safe capabilities.
+- Full integration and compliance tests for reasoning, governance, and orchestration.
+- CI/CD includes code signing, security scanning, notarization, and deployment validations.
+- Audit and transparency logs publicly visible for validation.
 
 ---
 
 ## Contributing
 
-Contributions are welcome under the Legal.Banannas.aii Binding Addendum. Please review contribution guidelines in `CONTRIBUTING.md`. Ensure all code adheres to established compliance practices and includes thorough documentation and testing.
+Open to global contributors via documented compliance protocols. See `CONTRIBUTING.md` for guidelines. All submissions require thorough documentation, automated tests, and governance compliance.
 
 ---
 
 ## License
 
-Dual-licensed under:
-
-- **MIT License** — for adoption and open use.  
-- **Legal.Banannas.aii Binding Addendum** — enforcing arbitration, compliance, and indestructibility commitments.
+Dual-licensed:
+- **MIT License** for free/open adoption.
+- **SwarmNet Binding Addendum** enforcing arbitration, compliance, and indestructibility for critical governance.
 
 ---
 
 ## Contact
 
-SuperLegal.AI Collective  
+SAI/MAI Collective  
 Email: [support@superlegal.ai](mailto:support@superlegal.ai)  
-GitHub: [Doctor0Evil/SuperLegal.AI](https://github.com/Doctor0Evil/SuperLegal.AI)  
+GitHub: [Doctor0Evil/SAI-MAI](https://github.com/Doctor0Evil/SAI-MAI.git)
 
 ---
 
-*This ReadMe.md is a binding root charter governed by the Legal.Banannas.aii framework, ensuring compliance, transparency, and ethical automatism within SuperLegal.AI’s public legal superintelligence system.*
+*This ReadMe.md sets the master charter for the SAI/MAI public-access superintelligence system, ensuring unbreakable compliance, security, and ethical operation in all environments.*
