@@ -1,0 +1,37 @@
+@CEASE_AND_DESIST {
+  header {
+    title: "Notice of Unauthorized Use and Demand to Cease and Desist"
+    date: "@NOW_UTC"
+  }
+
+  parties {
+    complainant: "<Owner Name>, <Address>, <Contact>"
+    respondent: "<Entity Name>, <Address>, <Contact>"
+  }
+
+  works_and_assets {
+    description: "<Identify specific code/assets/content>"
+    identifiers: ["SPDX-ID(s)", "C2PA Content Credentials refs", "Sigstore Rekor log entries"]
+  }
+
+  basis_of_claims {
+    dmca_1202: "Removal or alteration of Copyright Management Information"
+    dtsa_1836: "Misappropriation of trade secrets; request injunctive relief"
+    contract: "Breach of license/terms prohibiting AI training and contribution"
+  }
+
+  demands {
+    injunction: "Immediate cessation of use, training, distribution, and contribution"
+    remediation: "Purge from all datasets, models, caches, and backups; certify within 10 business days"
+    accounting: "Provide a full accounting of use, recipients, and derived models"
+    preservation: "Preserve documents, logs, models, and datasets for litigation hold"
+  }
+
+  evidence {
+    provenance: ["C2PA assertions", "Sigstore attestations (Fulcio/Rekor)", "Build and deployment logs"]
+    discovery_notice: "Additional requests will follow under applicable civil procedure rules"
+  }
+
+  response_deadline: "10 business days from receipt"
+  reservation_of_rights: "All rights reserved; no waiver of any claims or remedies."
+}
