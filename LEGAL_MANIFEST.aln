@@ -2,33 +2,33 @@
 
 @ALN_LEGAL_MANIFEST {
   @CONFIG {
-    system_name: "SuperLegal.AI"
+    system_name: "LegalComplianceFramework"
     version: "1.0.0"
     binding_charter: "README.md"
     compliance: [
       "GDPR", "CCPA", "HIPAA", "SOX", "FedRAMP", "PCI-DSS", "ISO27001", "EU_AI_Act_2024"
     ]
-    encryption: "AES-512-GCM_POST_QUANTUM_V3"
-    integrity: "SHA3-1024"
+    encryption: "AES-512-GCM"
+    integrity: "SHA3-512"
     notarization: "sigstore_v3_attestation"
-    scope: "Public_Access_Legal_Superintelligence"
+    scope: "Public_Compliance_Interface"
     audit_trail: "hyperledger_enabled"
-    status: "indestructible"
+    status: "verified"
     deploy_timestamp: "2025-10-02T12:00:00.000Z"
   }
 
   @DEFINITIONS {
     root_charter: README.md {
-      description: "Universal Charter"
-      binding: "eternal"
+      description: "Unified Legal and Compliance Charter"
+      binding: "perpetual"
       notarized: true
     }
     fragment_1: fragments/LegalReasoning.sai {
-      description: "Core advanced reasoning engine"
+      description: "Core compliance reasoning engine"
       compliance: ["GDPR", "CCPA", "HIPAA"]
     }
     particle_1: particles/governance.mai {
-      description: "Autonomous governance particle"
+      description: "Governance control module"
       enforcement: "strict"
     }
   }
@@ -37,7 +37,7 @@
     @VALIDATE integrity {
       method: "hyperledger"
       @IF violation_detected {
-        @THROW "INVALID MANIFEST STATE – HALT"
+        @THROW "INVALID MANIFEST STATE – PROCESS HALTED"
       }
     }
   }
@@ -50,7 +50,7 @@
   }
 
   @RETURN {
-    legal_status: "indestructible"
+    legal_status: "verified"
     compliance_verified: true
   }
 }
