@@ -1,0 +1,9 @@
+{
+  "agreement": "clickwrap",
+  "display": "conspicuous",
+  "assent": "I agree",
+  "prohibited_use": [
+    "external_research",
+    "circumvention"
+  ]
+}
