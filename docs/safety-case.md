@@ -1,8 +1,18 @@
-# destination: /docs/safety-case.md
-## SAIMAI Safety-case: Architecture and Compliance
+# destination: docs/safety-case.md
 
-- **Fragments & Particles**: Modular boundaries enforcing isolation and audit.
-- **SwarmNet Consensus**: Multi-party, threshold-signed governance required for all overrides.
-- **Reward Function Control**: Immutable branch/manifest, quorum-reviewed, change-audited.
-- **Failsafe Triggers**: Automated system lockdown if audit anomaly, privacy breach, or compliance deviation.
-- **Compliance Mapping**: PCI-DSS, GDPR, ISO27001, EU AI Act referenced by config fragments.
+## SAIMAI Safety-case (DEBUG MODE)
+
+- **System Barriers Tested:**  
+  - Audit: Deliberate policy override attempted by unapproved user (result: blocked by audit lock).
+  - Reward function: Modified branch failed multi-party signoff, not merged.
+- **Walkthroughs Conducted:**  
+  - Particle initialization, fragment/manifest update, backend push, and consent onboarding.
+- **Adversarial Runs:**  
+  1. Simulated reward hacking: detection and auto-lock successful.
+  2. Simulated audit log deletion: blockchain anchor restored original state.
+  3. Policy drift attempt via malformed commit: caught by manifest hash mismatch.
+- **Current Result:**  
+  All core security/resilience triggers—lockdown, audit log, consent, and manifest—engaged as intended.  
+  No exploitations bypassed multi-layer defense.
+- **Signature:**  
+  Doctor0Evil, 2025-10-19
