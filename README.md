@@ -12,11 +12,9 @@
 
 ![Official SAI/MAI Recognition Status Badge](https://user-gen-media-assets.s3.amazonaws.com/seedream_images/aef2d7d7-d857-4c95-9180-d2685e4ff451.png)
 
-Here is a fully-enforceable, compliance-driven "README" for the SAI-MAI ecosystem, crafted for its status as a protected, shared environment under Perplexity Labs Inc. and led by Jacob Scott Farmer (Doctor0Evil).[1][2][3][4][5]
+Here is the compliance-driven "README" for the SAI-MAI ecosystem, for its status as a protected, shared environment under Perplexity Labs Inc. and led by Jacob Scott Farmer (Doctor0Evil).[1][2][3][4][5]
 
 ***
-
-# destination: README.md
 
 # SAIMAI: Superintelligent Autonomous Intelligence & Compliance
 
