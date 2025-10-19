@@ -1,5 +1,13 @@
-# destination: /manifest/indestructible-governance.sai
+# destination: manifest/indestructible-governance.sai
 fragment indestructible-governance
+description "Central registry. All operational/config fragments indexed, versioned, and hash-sealed."
+linked [
+  # Automatically updated, but example entry:
+  {"file": "configs/sai-mai.yaml", "version": "2025.10.19", "hash": "a82de..."}
+  # ...more entries automatically updated.
+]
+last_audit timestamp()
+notarization_hash sha3_512(fragment)
 version 2025.10.19
 author SAIMAI.GOV.Team
 description "Central registry of all operational, compliance, config, and policy fragments for indestructible ecosystem governance."
