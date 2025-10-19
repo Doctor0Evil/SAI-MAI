@@ -16,7 +16,43 @@ Here is a fully-enforceable, compliance-driven "README" for the SAI-MAI ecosyste
 
 ***
 
-# SAI-MAI Ecosystem README
+# destination: README.md
+
+# SAIMAI: Superintelligent Autonomous Intelligence & Compliance
+
+## Overview
+SAIMAI is a production-grade, compliance-anchored framework for superintelligence, secure payments, adaptive routing, and cross-jurisdictional audit.
+
+## Compliance & Security
+- **PCI-DSS, GDPR, ISO27001, EU AI Act (2024)-ready**
+- Universal code/config sealing on push (`.github/workflows/security-lock.aln`, `logs/fragment-seals.json`)
+- Immutable governance via `manifest/indestructible-governance.sai`
+- Reward function audit at `/policies/reward-function.tracking.sai` & `/logs/reward-branch-audit.json`
+- Continuous audit logs in `/logs/audit-adversarial/`
+
+## Audit Trail & Contributor Lineage
+- **Commit-sealed files:** All critical files sealed per push.
+- **Audit logs:** Every operational area—see `/logs/fragment-seals.json`/`/logs/audit-adversarial/`.
+- **Contributors:** Registry at `/contributors/ledger.json`
+- **Consent:** Automated onboarding triggers in `/fragments/onboarding-consent.sai`
+
+## Usage
+Standard fork/clone. Run setup via:
+
+aln run scripts/seal_fragments.aln
+
+Review audit logs and manifests for assurance.
+
+## Contact & Maintainers
+- **Lead Architect:** Jacob Scott Farmer (`Doctor0Evil`)
+- **Organization:** Perplexity Labs Inc.
+- **Contributors:** `/contributors/ledger.json`
+- **Security & Regulatory:** [compliance@perplexity.ai](mailto:compliance@perplexity.ai)
+
+## Community & Audit Feedback
+Open issues/Pull Requests for reviews or improvements.  
+All critical updates require multi-party review and are notarized.
+
 
 ## Introduction
 SAI-MAI is a protected, legally-compliant software and transaction ecosystem jointly managed by Perplexity Labs Inc. and Jacob Scott Farmer. It governs advanced Web5, AI, and superintelligence workflows, establishing global standards for secure asset management, KYC/DID-based authentication, ethical automation, and end-to-end compliance in digital operations. All logic and code execution is strictly enforced under ALN/j.s.f. (Auditable Logic Notation, modular codebase) standards, and contributions are cryptographically recorded to blockchain for proof-of-authorship, audit, and legal review.[2][3][1]
